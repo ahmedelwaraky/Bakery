@@ -1,0 +1,363 @@
+/* Common */
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* Main Header */
+.main-header {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+.content-wrapper {
+  padding-top: 15%;
+  color: #fff;
+}
+.btns-wrapper .main-btn {
+  background-color: #8e7754;
+  padding: 13px 18px;
+  border-color: transparent;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+.content-wrapper h1{
+    margin: 38px 0px;
+    font-size: 50px;
+}
+.content-wrapper span{
+    font-size: 20px;
+    font-family: 'Alegreya';
+}
+
+.content-wrapper p{
+    margin-bottom:58px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btns-wrapper .second-btn {
+    background-color: transparent;
+    padding: 13px 18px;
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+  }
+/* second section  */
+.items {
+  overflow: hidden;
+  padding: 30px 0 30px 0;
+}
+.item {
+  width: 50%;
+  float: left;
+  padding-top: 20px;
+}
+.item .list i{
+  font-size: 20px;
+  float: left;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  color: #fff;
+  padding: 6px;
+  background-color: rgb(233, 218, 218);
+  color: #8e7754;
+}
+.item h2 {
+  font-family: Alegreya serif monospace;
+  font-size: 35px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.item p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0mm;
+}
+.list li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  margin-left: 15px;
+}
+.alex {
+  width: 50%;
+  float: left;
+  margin: auto;
+  text-align: center;
+}
+img {
+  width: 80%;
+}
+
+/* third section */
+.third {
+  overflow: hidden;
+  padding: 30px 0 30px 0;
+  background-color: rgb(250, 246, 246);
+}
+.location1 {
+  width: 50%;
+  float: left;
+  padding-top: 40px;
+}
+.location1 h2 {
+  font-family: Alegreya serif monospace;
+  font-size: 35px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.location1 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0mm;
+}
+.location2 {
+  float: left;
+  width: 50%;
+}
+.location2 img {
+  width: 80%;
+  padding-left: 40px;
+}
+
+/* fourth section  */
+.fourth {
+  overflow: hidden;
+  padding: 30px 0 30px 0;
+}
+.fourth h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.fourth p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fourth .item {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+.fourth .item h3 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Alegreya Sans" sans-serif;
+  line-height: 29.76px;
+}
+.fourth .item p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 29.76p;
+  letter-spacing: 0.2mm;
+}
+/* End fourth section  */
+
+/* start five section  */
+.adress{
+    overflow: hidden;
+    background-color: rgb(250, 246, 246);
+
+}
+.adress .info{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.adress .info h2{
+    text-align: center;
+    font-size: 40px;
+}
+.adress .info p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    color: rgb(88, 81, 81);
+}
+
+.adress .info h6{
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 30px;
+    margin-bottom: 0;
+    
+}
+.adress .contact-us{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(88, 81, 81);
+    
+}
+.adress .contact-us i{
+  font-size: 20px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 50% ;
+  background-color: rgb(233, 218, 218);
+  padding: 6px;
+}
+
+.adress ul {
+    margin:30px 0 80px 0 ;
+}
+.adress ul li{
+    margin-bottom:20px ;
+}
+.adress .map{
+    margin: 60px 40;
+}
+/* End Section five  */
+
+/* Start section about us  */
+.about-us{
+  overflow: hidden;
+  background-color: rgb(66, 56, 56);
+  color: #fff;
+}
+.about-us li{
+  border-bottom: 2px solid rgb(87, 87, 87);
+  padding: 0px 0px 9px 20px;
+}
+
+.about-us i{
+  font-size: 18px;
+  float: left;
+  margin-right: 5px;
+}
+
+.about-us .part1{
+  float: left;
+  width: 25%;
+}
+.about-us .part1 h2{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.about-us .part1 p{
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
+  color: #a79b89;
+}
+
+.about-us .part2{
+  float: left;
+  width: 25%;
+}
+/* .about-us .part2 span{
+  display: inline-block;
+  width: 45%;
+  height: 1px;
+  color: white;
+  background-color: white;
+  border-top: 11;
+  padding: -8px;
+  margin-top: -34px;
+} */
+
+.about-us .part2 .space{ 
+  height: 5px;
+  width: 20px;
+  color: #fff;
+  border-bottom: 2px;
+}
+.about-us .part2 h2{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.about-us .part2 li{
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #a79b89;
+}
+.about-us .part3{
+  float: left;
+  width: 25%;
+}
+.about-us .part3 h2{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.about-us .part3 li{
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #a79b89;
+}
+
+.about-us .part4{
+  float: left;
+  width: 25%;
+}
+.about-us .part4 h2{
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.about-us .part4 li{
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #a79b89;
+}
+
+
+/* footer  */
+footer{
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(26, 24, 24);
+  height: 200px;
+  padding-top: 50px;
+  width: 100% ;
+
+}
+footer .Copyright {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.Copyright img{
+  width: 200px;
+}
+footer .wrapper-icon{
+  width: 100px;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 40px;
+}
+/* .line{
+  width:1.1px;
+  height: 1.1px;
+  background-color:transparent;
+  color: rgb(255, 255, 255);
+  margin: 100px;
+}
+
+
+ */
+
+
